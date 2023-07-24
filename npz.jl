@@ -19,7 +19,7 @@ tspan = (0.0, 1.0)
 
 function create_sol(p)
     prob = ODEProblem(sys, u0, tspan, p, jac = true)
-    sol = solve(prob, Rosenbrock23(), saveat = 0.1)
+    return solve(prob, Rosenbrock23(), saveat = 0.1)
 end
 
 sol = create_sol(p)
