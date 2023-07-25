@@ -1,0 +1,11 @@
+name = "DiffEqGPU_Demo"
+uuid = "cf70742e-39f7-402a-8040-a039d556ee93"
+authors = ["Utkarsh <rajpututkarsh530@gmail.com>"]
+version = "0.1.0"
+
+[deps]
+CUDA = "052768ef-5323-5732-b1bb-66c8b64840ba"
+Catalyst = "479239e8-5488-4da2-87a7-35f2df7eef83"
+DiffEqGPU = "071ae1c0-96b5-11e9-1965-c90190d839ea"
+GR = "28b8d3ca-fb5f-59d9-8090-bfdbd6d07a71"
+StochasticDiffEq = "789caeaf-c7a9-5a7d-9973-96adeb23e2a0"
